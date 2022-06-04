@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 import { Routes, Route } from "react-router-dom"
+import React, { Component }  from 'react';
 import Index from "./Index"
 import Show from "./Show"
 import Services from "./Services";
 import Barbers from "./Barbers";
+import Home from "./Home";
 
 export default function Appointments(props) {
     const [appointments, setAppointments] = useState(null)
@@ -51,6 +53,7 @@ export default function Appointments(props) {
     return (
         <main>
             <Routes>
+              <Route path="/" element={<Home URL={URL}/>} />
               <Route path="/services" element={<Services URL={URL}/>} />
               <Route path="/barbers" element={<Barbers URL={URL}/>} />
               <Route path="/appointments" element={<Index appointments={appointments} createAppointments={createAppointments} />} />

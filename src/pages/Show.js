@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from "react-router";
 import { useState } from "react";
+import React, { Component }  from 'react';
 
 export default function Show({appointments, updateAppointments, deleteAppointments}) {
 

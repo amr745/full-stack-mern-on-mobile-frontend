@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react";
+import React, { Component }  from 'react';
 
 export default function Index({appointments, createAppointments}) {
 

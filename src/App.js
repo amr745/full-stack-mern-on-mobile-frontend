@@ -1,10 +1,14 @@
+import React from "react";
 import './App.css';
-// import { Route, Routes } from "react-router-dom";
+// import React, { Component }  from 'react';
 
 // IMPORT PAGES
 // import Services from "./pages/Services";
 // import Barbers from "./pages/Barbers";
 import Appointments from "./pages/Appointments";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar"
 
 // BACKEND HEROKU URL
 function App() {
@@ -12,13 +16,10 @@ function App() {
   
   return (
     <div className="App">
+      {/* <Header /> */}
+      <Navbar />
       <Appointments />
-      {/* <Routes> */}
-      {/* <Route path="/" element={<Home URL={URL}/>} /> */}
-      {/* <Route path="/services" element={<Services URL={URL}/>} /> */}
-      {/* <Route path="/barbers" element={<Barbers URL={URL}/>} /> */}
-      {/* <Route path="/appointments" element={<Appointments URL={URL}/>} /> */}
-      {/* </Routes> */}
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  /* background-color: navy; */
+  /* color: white; */
+}
+
+nav {
+  background-color: navy;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +43,9 @@
     transform: rotate(360deg);
   }
 }
+
+.shopLogo {
+  height: 100%;
+  width: 100%;
+}
+

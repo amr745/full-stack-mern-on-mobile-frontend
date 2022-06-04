@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React, { Component }  from 'react';
 
 function Barbers(props) {
   // create state to hold services data
