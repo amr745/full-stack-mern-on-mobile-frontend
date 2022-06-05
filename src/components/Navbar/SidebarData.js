@@ -1,7 +1,7 @@
 import React from 'react';
 // mport * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
+// import * as IoIcons from "react-icons/io";
 import * as GiIcons from "react-icons/gi";
 
 
@@ -14,7 +14,7 @@ export const SidebarData = [
     },
     {
         title: 'Services',
-        path: '/servies',
+        path: '/services',
         icon: <GiIcons.GiRazor />,
         cName: 'nav-text'
     },

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Routes, Route } from "react-router-dom"
-import React, { Component }  from 'react';
+import React from 'react';
 import Index from "./Index"
 import Show from "./Show"
 import Services from "./Services";

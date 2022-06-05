@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import React, { Component }  from 'react';
+import React from 'react';
 
 function Services(props) {
   // create state to hold services data

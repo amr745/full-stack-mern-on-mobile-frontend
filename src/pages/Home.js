@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import React, { Component }  from 'react';
+import React from 'react';
 
 function Home(props) {
 
@@ -22,8 +22,8 @@ function Home(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return home.map((home) => (
-    <div>
-      <img src={home.logo} alt="Barbershop" />
+    <div className="shopPic">
+      {/* <img src={home.logo} alt="Barbershop" className="shopPic" /> */}
     </div>
     ))
 };

@@ -1,5 +1,5 @@
 // import { useState, useEffect } from "react";
-import React, { Component }  from 'react';
+import React  from 'react';
 import * as FaIcons from "react-icons/fa";
 
 function Footer(props) {
