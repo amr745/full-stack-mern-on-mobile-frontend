@@ -8,7 +8,8 @@ import './App.css';
 import Appointments from "./pages/Appointments";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import sideBar from "./components/Navbar"
 
 // BACKEND HEROKU URL
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <Navbar />
+      <sideBar />
       <Appointments />
       <Footer />
     </div>

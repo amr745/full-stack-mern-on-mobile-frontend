@@ -6,9 +6,11 @@ export const Nav = styled.nav`
 backgorund: #000;
 height: 80px;
 display: flex;
-justify-content: space-between;
+// justify-content: space-between;
 padding: 0.5rem calc((100vw - 1000px) / 2);
 z-index: 10;
+
+justify-content: flex-start;
 `
 
 export const NavLink = styled(Link)`
