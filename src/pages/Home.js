@@ -22,7 +22,9 @@ function Home(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return home.map((home) => (
-    <div className="shopPic">
+    <div>
+      <h1 className="homeWord">Your next haircut awaits...</h1>
+      <div className="shopPic"></div>
       {/* <img src={home.logo} alt="Barbershop" className="shopPic" /> */}
     </div>
     ))
