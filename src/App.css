@@ -25,17 +25,22 @@
 }
 
 .shopPic {
-  position: relative;
+  width: auto;
+  height: 337px;
+  object-fit: cover;
+  object-position: 100% 0;
+
+
   /* background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
   url(https://imgur.com/P9wyUnj.png); */
-  background-position: top center;
+  /* background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100vh; */
 }
 
 .homeWord {
@@ -69,12 +74,12 @@ footer {
     }
  } */
  
- @media only screen and (min-width: 480px) {
+ /* @media only screen and (min-width: 480px) {
     .shopPic {
-      width: 70%;
+      width: 100%;
       height: auto;
     }
- }
+ } */
 
 
 /* @media only screen and (min-device-width: 480px) {
