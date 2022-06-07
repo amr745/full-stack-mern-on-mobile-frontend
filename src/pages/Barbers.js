@@ -21,10 +21,10 @@ function Barbers(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return barbers.map((barber) => (
-    <div>
+    <div className="ser">
       <h1>{barber.name}</h1>
       <img src={barber.image} alt={barber.name} />
-      <p className="barbIntro">{barber.intro}</p>
+      <p className="servDis">{barber.intro}</p>
       <p className="barbSpec">{barber.speciality}</p>
     </div>
   ));
