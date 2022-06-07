@@ -24,8 +24,8 @@ function Home(props) {
     return home.map((home) => (
     <div>
       <h1 className="homeWord">Your next haircut awaits...</h1>
-      <div className="shopPic"></div>
-      {/* <img src={home.logo} alt="Barbershop" className="shopPic" /> */}
+      {/* <div className="shopPic"></div> */}
+      <img src={home.logo} alt="Barbershop" className="shopPic" />
     </div>
     ))
 };
