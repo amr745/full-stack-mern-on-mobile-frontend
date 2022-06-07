@@ -25,10 +25,9 @@
 }
 
 .shopPic {
-  width: auto;
+  width: 300px;
   height: 337px;
-  object-fit: cover;
-  object-position: 100% 0;
+  object-fit: cover
 
 
   /* background-image: linear-gradient(
