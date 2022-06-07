@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
+import './Services.css';
 
 function Services(props) {
   // create state to hold services data
@@ -21,8 +22,9 @@ function Services(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return services.map((service) => (
-    <div>
-      <h2>{service.cut}</h2>
+    <div className="ser">
+      <h4>{service.cut} | {service.price}</h4>
+      {/* <h3>{service.price}</h3> */}
       <p className="servDis">{service.description}</p>
     </div>
   ));

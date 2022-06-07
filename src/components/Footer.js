@@ -13,7 +13,7 @@ function Footer(props) {
     }
     return (
     <footer>
-      <p>Created by Ashley M. Richard</p>
+      <p className="pfoot">Created by Ashley M. Richard</p>
       <FaIcons.FaLinkedin onClick={social} target="_blank" className="social-link"/>
       <FaIcons.FaGithub className="social-link" alt="Github Link" onClick={git} target="_blank" />
     </footer>

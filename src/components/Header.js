@@ -14,7 +14,7 @@ function Header(props) {
   
   return (
   <header>
-      <img src="https://imgur.com/84nWw4D.png" alt="Shop Logo" />
+      <img src="https://imgur.com/84nWw4D.png" alt="Shop Logo" onClick="/" />
       {/* <nav style={navStyle}>
           <Link to="/">HOME</Link>
           <Link to="/Services">SERVICES</Link>
