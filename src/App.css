@@ -25,11 +25,12 @@
 }
 
 .shopPic {
-  background-image: linear-gradient(
+  position: relative;
+  /* background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url(https://imgur.com/P9wyUnj.png);
+  url(https://imgur.com/P9wyUnj.png); */
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
@@ -60,6 +61,20 @@ footer {
 .pfoot {
   color: white;
 }
+
+/* @media only screen and (max-width: 950px) {
+    .shopPic {
+      width: 100%;
+      height: auto;
+    }
+ } */
+ 
+ @media only screen and (min-width: 480px) {
+    .shopPic {
+      width: 70%;
+      height: auto;
+    }
+ }
 
 
 /* @media only screen and (min-device-width: 480px) {
