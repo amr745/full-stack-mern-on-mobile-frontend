@@ -1,8 +1,13 @@
 .ser {
     border: transparent;
-    margin: 80px;
+    /* margin: 80px; */
+}
+
+.serLet {
+    font-size: 20pt;
 }
 
 .servDis {
     color: navy;
+    font-size: 16pt;
 }

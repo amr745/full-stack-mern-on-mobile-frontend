@@ -23,7 +23,7 @@ function Barbers(props) {
     return barbers.map((barber) => (
     <div className="ser">
       <h1>{barber.name}</h1>
-      <img src={barber.image} alt={barber.name} />
+      <img src={barber.image} alt={barber.name} className="barpic"/>
       <p className="servDis">{barber.intro}</p>
       <p className="barbSpec">{barber.speciality}</p>
     </div>

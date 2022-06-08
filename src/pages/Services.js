@@ -23,7 +23,7 @@ function Services(props) {
   const loaded = () => {
     return services.map((service) => (
     <div className="ser">
-      <h4>{service.cut} | {service.price}</h4>
+      <h4 className="serLet">{service.cut} | {service.price}</h4>
       {/* <h3>{service.price}</h3> */}
       <p className="servDis">{service.description}</p>
     </div>
